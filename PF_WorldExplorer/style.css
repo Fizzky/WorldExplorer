@@ -1,0 +1,129 @@
+/* Base reset & layout */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f0f4f8;
+  color: #333;
+}
+
+/* Header styling */
+header {
+  background: #2a9d8f;
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin: 0;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav button {
+  margin: 0.25rem;
+  padding: 0.5rem 1rem;
+  background-color: #264653;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+nav button:hover {
+  background-color: #1e3d3a;
+}
+
+/* App container */
+#app {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Text input styling */
+input[type="text"] {
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-right: 0.5rem;
+  width: 60%;
+}
+
+/* General button style */
+button {
+  background-color: #2a9d8f;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #21867a;
+}
+
+/* Quiz and leaderboard layout */
+#quizContainer,
+#leaderboardList {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* Flag image */
+#flagDisplay img {
+  margin: 1rem 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Option buttons */
+#options button {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #e76f51;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#options button:hover {
+  background-color: #d65c3d;
+}
+
+/* Result text */
+#result {
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+/* Progress bar */
+#progressBar {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 10px;
+  height: 16px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+#progressFill {
+  height: 100%;
+  width: 0%;
+  background-color: #2a9d8f;
+  transition: width 0.3s ease;
+}
